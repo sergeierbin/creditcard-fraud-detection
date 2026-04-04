@@ -2,6 +2,14 @@
 
 Masinõppe projekt, mis tuvastab pettuslikke krediitkaardi tehinguid automaatselt.
 
+## Projekti failid
+
+| Fail | Kirjeldus |
+|------|-----------|
+| [notebook.ipynb](notebook.ipynb) | Põhianalüüs koos tulemustega (EDA, mudelid, graafikud) |
+| [raport.pdf](raport.pdf) | Lühike PDF-kokkuvõte (2 lk) |
+| [generate_report.py](generate_report.py) | PDF-raporti generaator |
+
 ## Projekti kirjeldus
 
 Andmestik sisaldab **284 807 tehingut** (september 2013), millest ainult **0,172% on pettused** — see teeb ülesande keeruliseks, sest andmestik on tugevalt tasakaalustamata.
@@ -36,15 +44,6 @@ Pane `creditcard.csv` projekti kausta ja käivita notebook.
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn lightgbm imbalanced-learn fpdf2
 jupyter notebook notebook.ipynb
-```
-
-## Struktuur
-
-```
-creditcard-fraud-detection/
-├── notebook.ipynb        # Põhianalüüs (EDA, mudelid, hindamine)
-├── generate_report.py    # PDF-raporti generaator
-└── README.md
 ```
 
 ## Tehnoloogiad
