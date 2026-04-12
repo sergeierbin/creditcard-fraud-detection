@@ -1,0 +1,5 @@
+creditcard.csv
+tuned_models.pkl
+__pycache__/
+*.ipynb_checkpoints
+.claude/
